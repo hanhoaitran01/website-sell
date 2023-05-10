@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 50px;
+  height: 70px;
+  align-content: center;
+}
+
+.logo {
+  flex: 1;
+}
+
+.menu {
+  flex: 3;
+  display: flex;
+}
+
+.menu > li {
+  padding: 0 12px;
+}
+
+.other {
+  flex: 1;
+  display: flex;
+}
+
+.other > li {
+  padding: 0 12px;
+}
+
+.other > li:first-child input {
+  width: 100%;
+}
